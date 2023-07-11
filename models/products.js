@@ -1,7 +1,8 @@
 const db = require('../helpers/db')
+const conn = require('../helpers/db')
 
 module.exports = {
-    getAllProduct : async() => {
-        return db().query('SELECT * FROM "PRODUCTS"');
+    getAllProduct : () => {
+        return conn.any('SELECT * FROM "PRODUCTS"');
     }
 } 
