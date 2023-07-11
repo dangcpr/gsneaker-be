@@ -3,11 +3,11 @@ const initOptions = {};
 const pgp = require("pg-promise")(initOptions);
 
 const db = {
-    host: "dpg-cikgvctgkuvinfj2583g-a.singapore-postgres.render.com",
+    host: "rosie.db.elephantsql.com",
     port: 5432,
-    database: "gsneaker",
-    user: "admin",
-    password: "aqSntS2TXY245sLXDhAEQVjaJmLEvori",
+    database: "bwxeffxr",
+    user: "bwxeffxr",
+    password: "Fy6eOgpdxyJa1Ikx6GxFVk_s8xLNsLAw",
     ssl: true,
     max: 20,
 }
